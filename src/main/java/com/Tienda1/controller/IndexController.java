@@ -13,10 +13,9 @@ public class IndexController {
     public String inicio(Model model) {
         
         // Propiedad, valor
-        /*
         model.addAttribute("nombre", "Jose Pablo");
-        model.addAttribute("Apellido", "20");
-        model.addAttribute("edad", "20");*/
+        //model.addAttribute("Apellido", "20");
+        //model.addAttribute("edad", "20");
         return "index";
     }
     
